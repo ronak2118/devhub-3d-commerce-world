@@ -139,9 +139,11 @@ const CartPage = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-devhub-purple hover:bg-devhub-dark-purple text-white py-3 px-4 rounded-full font-medium transition-colors mb-4">
-                  Proceed to Checkout
-                </button>
+                <Link to="/checkout" className="w-full">
+                  <button className="w-full bg-devhub-purple hover:bg-devhub-dark-purple text-white py-3 px-4 rounded-full font-medium transition-colors mb-4">
+                    Proceed to Checkout
+                  </button>
+                </Link>
 
                 <Link
                   to="/products"
