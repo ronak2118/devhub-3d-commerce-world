@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+# 🛍️ DevHub - IoT Device E-commerce Platform
 
-## Project info
+DevHub is a dynamic e-commerce website designed specifically for buying and managing IoT (Internet of Things) devices. It offers a user-friendly experience for both customers and administrators, enabling seamless browsing, purchasing, and management of smart devices.
 
-**URL**: https://lovable.dev/projects/3aeeacb3-36d6-48aa-8a2c-34be0aab361f
+Built using **Java**, **JSP**, **MySQL**, and **CSS**, DevHub features secure login/registration, product listings, admin control panels, and a responsive interface.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔑 Key Features
 
-**Use Lovable**
+- 👤 User registration and login with validation
+- 📦 Browse IoT products with detailed information
+- 🛒 Add to cart and checkout system
+- 📊 Admin dashboard to manage users and products
+- 🧾 Order history and transaction management
+- 🛠️ Device listing, editing, and removal for admins
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3aeeacb3-36d6-48aa-8a2c-34be0aab361f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Technologies Used
 
-**Use your preferred IDE**
+- Java (Servlets & JSP)
+- HTML, CSS, JavaScript
+- MySQL Database
+- Apache Tomcat Server
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Modules
 
-Follow these steps:
+- **User Module** – Account creation, login, profile management
+- **Product Module** – Display IoT devices, search and filter
+- **Cart Module** – Add/remove devices, checkout
+- **Admin Module** – Manage users, products, and orders
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📌 Note
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3aeeacb3-36d6-48aa-8a2c-34be0aab361f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for academic/demo purposes and can be expanded into a full-featured e-commerce platform with payment integration, search filters, reviews, and more.
