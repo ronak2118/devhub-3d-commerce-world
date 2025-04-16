@@ -17,6 +17,9 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -51,6 +54,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				devhub: {
+					purple: '#9b87f5',
+					'dark-purple': '#6E59A5',
+					'light-purple': '#E5DEFF',
+					'soft-gray': '#F1F0FB',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
